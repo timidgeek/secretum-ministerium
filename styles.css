@@ -1,4 +1,11 @@
-/* hamburger icon */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap'); /* elsie */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap'); /* staatliches */
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap'); /* glass antiqua */
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap'); /* golos text */
+
+
+/* hamburger menu */
 .ham-top {
   background-color: white;
   height: 2px;
@@ -18,9 +25,19 @@
   display: block;
 }
 
+/* images & backgrounds */
 .header-bg {
   background-image: url(images/pixels/skybg-purple.png);
   background-repeat: repeat;
   background-size: auto 100%;
   height: 100vh;
+}
+
+/* unordered lists */
+li {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 15pt;
+}
+li:hover {
+  color: #FFE200;
 }
