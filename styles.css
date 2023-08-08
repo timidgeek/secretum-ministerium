@@ -1,17 +1,17 @@
 /* hamburger icon */
-.header .ham-top {
+.ham-top {
   background-color: white;
   height: 2px;
-  width: 20px;
+  width: 18px;
   display: block;
 }
-.header .ham-middle {
+.ham-middle {
   background-color: white;
   height: 2px;
-  width: 13px;
+  width: 18px;
   display: block;
 }
-.header .ham-bottom {
+.ham-bottom {
   background-color: white;
   height: 2px;
   width: 18px;
