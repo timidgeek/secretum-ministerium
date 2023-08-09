@@ -9,6 +9,9 @@
   <!-- Stylesheets-->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
   <!-- jQuery -->
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -38,8 +41,8 @@
 </head>
 <body class="header-bg">
   <!-- BEGIN header section -->
-  <header>
-    <div class="mx-5">
+  <header class="container-fluid text-center">
+    <div>
       <nav class="navbar navbar-expand-sm navbar-dark pt-4 px-0">
         <button
           class="navbar-toggler float-left position-absolute d-sm-none"
@@ -58,26 +61,37 @@
           class="navbar-brand mx-auto d-flex flex-column flex-sm-row align-items-center mt-3"
           href="index.html"
         >
-          <img
-            src="images/pixels/owl.gif"
-            alt="hedwig"
-            width="37px"
-            class="mr-4 mb-3 mb-sm-0 mr-sm-3 img-fluid"
-          />
         </a>
-        <div class="collapse navbar-collapse text-center mt-3" id="navbarNav">
-          <ul class="navbar-nav ml-auto font-weight-bold justify-content-between">
+        <div class="collapse navbar-collapse text-center mt-3 mx-5" id="navbarNav">
+          <ul class="navbar-nav d-flex w-100 justify-content-between">
+            <!-- Search Icon -->
             <li class="nav-item">
-              <a class="nav-link text-white pl-5" href="index.html">Home</a>
+                <a class="nav-link text-white mx-2 px-0" href="#">
+                  <i class="fas fa-search"></i>
+                </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white pl-5" href="#">Products</a>
+                <a class="nav-link text-white mx-auto mx-lg-5 mx-sm-5 px-0" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white pl-5" href="#">About</a>
+                <a class="nav-link text-white mx-auto mx-lg-5 mx-sm-5 px-0" href="#">SHOP</a>
+            </li>
+
+            <!-- Logo Space -->
+            <li class="nav-item text-center">
+                <a class="navbar-brand mx-auto d-flex flex-column flex-sm-row align-items-center" href="index.html"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white pl-5" href="#">Cart</a>
+                <a class="nav-link text-white mx-auto mx-lg-5 mx-sm-5 px-0" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white mx-auto mx-lg-5 mx-sm-5 px-0" href="#">CONTACT</a>
+            </li>
+            <!-- Cart Icon -->
+            <li class="nav-item">
+                <a class="nav-link text-white mx-2 px-0" href="#">
+                  <i class="fas fa-shopping-bag"></i>
+                </a>
             </li>
           </ul>
         </div>
