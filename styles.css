@@ -38,6 +38,6 @@ li {
   font-family: 'Staatliches', sans-serif;
   font-size: 15pt;
 }
-li:hover {
-  color: #FFE200;
+li a:hover, li a:focus {
+  color: #FFE200 !important;
 }
