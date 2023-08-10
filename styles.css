@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap'); /* golos text */
 
 
-/* hamburger menu */
+/* #region HAMBURGER */
+
 .ham-top {
   background-color: white;
   height: 2px;
@@ -25,7 +26,10 @@
   display: block;
 }
 
-/* images & backgrounds */
+/* #endregion */
+
+/* #region IMG & BACKGROUNDS */
+
 .header-bg {
   background-image: url(images/pixels/skybg-purple.png);
   background-repeat: repeat;
@@ -33,7 +37,10 @@
   height: 100vh;
 }
 
-/* unordered lists */
+/* #endregion */
+
+/* #region UL LI */
+
 li {
   font-family: 'Staatliches', sans-serif;
   font-size: 15pt;
@@ -41,3 +48,30 @@ li {
 li a:hover, li a:focus {
   color: #FFE200 !important;
 }
+
+/* #endregion */
+
+/* #region ABOUT */
+
+.about-bg {
+  background-image: url(images/About_BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+#About h2 {
+  font-family: 'Elsie', cursive;
+  font-size: 33pt;
+  margin-bottom: 20px;
+}
+
+#About p {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 18pt;
+  line-height: 208%;
+  letter-spacing: 1.3px;
+}
+
+/* #endregion */
