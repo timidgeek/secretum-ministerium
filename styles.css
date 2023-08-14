@@ -72,3 +72,38 @@ li a:hover, li a:focus {
 }
 
 /* #endregion */
+
+/* #region PRODUCT */
+
+.product-bg {
+  background-color: #17172F;
+  padding: 100px 0;
+}
+
+#product h2 {
+  font-family: 'Elsie', cursive;
+  font-size: 33pt;
+  margin-bottom: 20px;
+}
+
+#product p {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 18pt;
+  line-height: 208%;
+  letter-spacing: 1.3px;
+}
+
+/* BUTTON SHOP NOW */
+.btn, .btn:hover, .btn:focus {
+  background-color: #3F3F7D !important;
+  border-color: #3F3F7D !important;
+  font-family: 'Staatliches', sans-serif !important;
+  font-size: 30px !important;
+  letter-spacing: 1.65px !important;
+}
+
+.btn:hover, .btn:focus {
+  opacity: 0.9;
+}
+
+/* #endregion */
