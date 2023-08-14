@@ -107,3 +107,42 @@ li a:hover, li a:focus {
 }
 
 /* #endregion */
+
+/* #region FEATURED */
+
+.featured-bg {
+  background-color: #3F3F7D;
+}
+
+.logo-container img.img-fluid {
+  object-fit: contain;
+}
+
+.logo-container img.draco {
+  max-width: 35%;
+}
+
+.logo-container img.trunk {
+  max-width: 60%;
+}
+
+.logo-container img.hbm {
+  max-width: 100%;
+}
+
+.logo-container img.soap {
+  max-width: 35%;
+}
+
+@media (max-width: 767.98px) {
+  .logo-container {
+    height: auto !important;
+    margin-bottom: 24px !important;
+  }
+
+  .logo-container img.img-fluid {
+    max-width: 30% !important;
+  }
+}
+
+/* #endregion */
