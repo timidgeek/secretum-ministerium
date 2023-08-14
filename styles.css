@@ -4,6 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap'); /* glass antiqua */
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap'); /* golos text */
 
+/* variables */
+:root {
+  --main-color-light: #5656AD;
+  --main-color-dark: #3F3F7D;
+  --accent-green: #71F4BC;
+  --accent-yellow: #FFE200;
+}
 
 /* #region HAMBURGER */
 
@@ -43,7 +50,7 @@ li {
   font-size: 15pt;
 }
 li a:hover, li a:focus {
-  color: #FFE200 !important;
+  color: var(--accent-green) !important;
 }
 
 /* #endregion */
