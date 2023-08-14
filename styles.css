@@ -154,6 +154,37 @@ li a:hover, li a:focus {
 
 /* #endregion */
 
+/* #region CONTACT US */
+
+.contact-bg {
+  background-image: url(images/pixels/skybg-green.png);
+  background-repeat: repeat;
+  background-size: auto 100%;
+}
+
+#contact h2 {
+  font-family: 'Elsie', cursive;
+  font-size: 40pt;
+}
+
+#contact .btn {
+  background-color: #673A27 !important;
+  border-color: #673A27 !important;
+  font-size: 30px !important;
+  letter-spacing: 1.65px !important;
+}
+
+#contact .form-label {
+  font-family: 'Elsie', cursive;
+  font-size: 18pt;
+  line-height: 208%;
+  letter-spacing: 1.3px;
+
+  margin-bottom: 0;
+}
+
+/* #endregion */
+
 /* #region FOOTER */
 
 footer.container-fluid {
