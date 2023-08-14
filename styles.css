@@ -146,3 +146,24 @@ li a:hover, li a:focus {
 }
 
 /* #endregion */
+
+/* #region FOOTER */
+
+footer.container-fluid {
+  background-color: #17172F;
+}
+
+.fab {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.small-icon {
+  font-size: 2rem;
+}
+
+.list-group-horizontal > li:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* #endregion */
