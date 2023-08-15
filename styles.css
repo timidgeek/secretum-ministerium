@@ -18,8 +18,12 @@
 /* #region HAMBURGER */
 
 .navbar-toggler {
-  top: 3rem;
-  left: 1rem;
+  top: 1rem;
+  left: 2.5rem;
+}
+
+.navbar-toggler-icon {
+  height: 30px;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -28,20 +32,21 @@
 
 /* Logo adjustments */
 .navbar-brand img {
-  width: 175px; /* original size */
+  width: 175px;
+  min-width: 80px;
 }
 
 /* Adjust logo size for smaller screens */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .navbar-brand img {
     width: 125px; /* smaller size for mobile screens */
   }
 }
 
 /* Adjust nav items for medium and smaller screens */
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
   .navbar-nav .nav-item {
-    margin-top: 0.5rem; /* give some vertical space between items */
+    margin-top: 0.5rem;
   }
 }
 
