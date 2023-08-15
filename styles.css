@@ -10,6 +10,9 @@
   --main-color-dark: #3F3F7D;
   --accent-green: #71F4BC;
   --accent-yellow: #FFE200;
+
+  --body-font: 1rem;
+  --header-font: 2rem;
 }
 
 /* #region HAMBURGER */
@@ -67,13 +70,13 @@ li a:hover, li a:focus {
 
 #About h2 {
   font-family: 'Elsie', cursive;
-  font-size: 33pt;
+  font-size: var(--header-font);
   margin-bottom: 20px;
 }
 
 #About p {
   font-family: 'Staatliches', sans-serif;
-  font-size: 18pt;
+  font-size: var(--body-font);
   line-height: 208%;
   letter-spacing: 1.3px;
 }
@@ -89,13 +92,13 @@ li a:hover, li a:focus {
 
 #product h2 {
   font-family: 'Elsie', cursive;
-  font-size: 33pt;
+  font-size: var(--header-font);
   margin-bottom: 20px;
 }
 
 #product p {
   font-family: 'Staatliches', sans-serif;
-  font-size: 18pt;
+  font-size: var(--body-font);
   line-height: 208%;
   letter-spacing: 1.3px;
 }
@@ -105,7 +108,6 @@ li a:hover, li a:focus {
   background-color: #3F3F7D !important;
   border-color: #3F3F7D !important;
   font-family: 'Staatliches', sans-serif !important;
-  font-size: 30px !important;
   letter-spacing: 1.65px !important;
 }
 
@@ -164,19 +166,18 @@ li a:hover, li a:focus {
 
 #contact h2 {
   font-family: 'Elsie', cursive;
-  font-size: 40pt;
+  font-size: 2.5rem;
 }
 
 #contact .btn {
   background-color: #673A27 !important;
   border-color: #673A27 !important;
-  font-size: 30px !important;
   letter-spacing: 1.65px !important;
 }
 
 #contact .form-label {
   font-family: 'Elsie', cursive;
-  font-size: 18pt;
+  font-size: 1.2rem;
   line-height: 208%;
   letter-spacing: 1.3px;
 
