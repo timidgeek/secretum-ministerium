@@ -12,6 +12,14 @@ const firebaseConfig = {
 const app = firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore(app);
 
+db.collection("Products").onSnapshot((querySnapshot) => {
+    $('#products').empty();
+    querySnapshot.forEach((doc) => {
+        console.log(doc.data())
+    })
+})
+
+
 // CONTACT US
 $(document).ready(function() {
     // Contact form validation

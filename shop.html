@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Secretum Ministerium - Shop</title>
-  <link rel="icon" type="image/x-icon" href="images/pixels/favicon.png" />
+  <link rel="icon" type="image/x-icon" href="styles/images/pixels/favicon.png" />
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles/styles.css">
@@ -49,7 +49,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand mx-auto d-flex flex-column flex-sm-row align-items-center" href="homepage.html">
-          <img class="img-fluid mt-0" src="images/Nav_Logo_LG.png" alt="Baby Logo">
+          <img class="img-fluid mt-0" src="styles/images/Nav_Logo_LG.png" alt="Baby Logo">
         </a>
         <div class="collapse navbar-collapse text-center mt-3 mx-5" id="navbarNav">
           <ul class="navbar-nav d-flex flex-column flex-sm-row w-100 justify-content-between">
@@ -82,11 +82,21 @@
       </nav>
     </div>
   </header>
+  <!-- products section -->
+  <section id="shop">
+    <div
+      class="d-flex flex-wrap justify-content-center py-5"
+      id="products"
+    ></div>
+  </section>
 
 <!-- javascript and firebase -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
 <script type="text/javascript" src="scripts/scripts.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js%22%3E"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.2.2/firebase-app.min.js"></script> -->
+<!-- <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js%22%3E"></script>
 <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js%22%3E"></script>
-<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.js%22%3E"></script>
+<script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-firestore.js%22%3E"></script> -->
 </body>
 </html>
