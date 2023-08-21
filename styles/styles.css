@@ -253,9 +253,23 @@ footer.container-fluid {
 	-moz-box-sizing: border-box;
   box-sizing: border-box;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
 
+}
 .cards:hover {
   box-shadow: 0 4px 10px rgba(5, 2, 56, 0.733), 0 4px 10px rgba(0, 0, 0, 0.806);
+}
+.product-title {
+  font-family: 'Staatliches', sans-serif;
+  font-size: var(--header-font);
+  color: var(--main-color-light)
+}
+.product-body {
+  font-size: 12px;
+  font-family: 'Elsie', cursive;
+}
+.product-price {
+  color: var(--accent-green);
+  font-weight: bold;
+  font-family: 'Elsie', cursive;
 }
 /* #endregion */

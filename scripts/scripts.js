@@ -15,9 +15,27 @@ const db = firebase.firestore(app);
 db.collection("Products").onSnapshot((querySnapshot) => {
     $('#products').empty();
     querySnapshot.forEach((doc) => {
-        console.log(doc.data())
-    })
-})
+        console.log(doc.data());
+        // insert function to create the card
+        let spread = $(`
+    <div class="card cards" style="width: 18rem;">
+    <img 
+      class="card-img-top" 
+      src="${doc.data().image}"
+      alt="Product picture" />
+    <div class="card-body">
+      <h5 class="card-title product-title">${doc.data().name}</h5>
+      <p class="card-text product-body">${doc.data().description}</p>
+      <div class="d-flex justify-content-between">
+        <h2 class="product-price">${doc.data().price}</h2>
+        <a href="#" class="btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+  </div>
+        `);
+        $('#products').append(spread);
+    });
+});
 
 
 // CONTACT US
