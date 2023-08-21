@@ -70,6 +70,15 @@
 
 /* #endregion */
 
+/* #region BODY */
+
+  body, a:hover {
+    cursor: url(https://springhole.net/pixelart/cursors/wand_mc_style-a_earth.gif), 
+    progress !important;
+  }
+
+/* #endregion*/
+
 /* #region UL LI */
 
 li {
@@ -237,10 +246,11 @@ footer.container-fluid {
   background-repeat: repeat;
   box-shadow: inset 0 0 0 1000px rgba(9, 16, 69, 0.577);
 }
+
 .cards {
   margin: 0 auto;
   text-align: center;
-	display: -webkit-flex;
+	/* display: -webkit-flex; */
 	display: flex;
   border-radius: 10px;
 	-webkit-justify-content: center; 
@@ -255,21 +265,31 @@ footer.container-fluid {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 }
+
 .cards:hover {
   box-shadow: 0 4px 10px rgba(5, 2, 56, 0.733), 0 4px 10px rgba(0, 0, 0, 0.806);
 }
+
 .product-title {
   font-family: 'Staatliches', sans-serif;
   font-size: var(--header-font);
   color: var(--main-color-light)
 }
+
 .product-body {
   font-size: 12px;
   font-family: 'Elsie', cursive;
 }
+
 .product-price {
   color: var(--accent-green);
   font-weight: bold;
   font-family: 'Elsie', cursive;
 }
+
+.price-div {
+  position: absolute;
+  padding-bottom: 0px !important;
+}
+
 /* #endregion */
