@@ -288,11 +288,6 @@ footer.container-fluid {
   font-family: 'Elsie', cursive;
 }
 
-.price-div {
-  position: absolute;
-  padding-bottom: 0px !important;
-}
-
 /* #endregion */
 
 /* #region CART */

@@ -145,7 +145,7 @@ db.collection("Products").onSnapshot((querySnapshot) => {
     <div class="card-body">
       <h5 class="card-title product-title">${doc.data().name}</h5>
       <p class="card-text product-body">${doc.data().description}</p>
-      <div class="d-flex justify-content-between price-div">
+      <div class="d-flex justify-content-between mb-auto">
         <h2 class="product-price">${doc.data().price}</h2>
         <a onclick="addToCart(event, '${doc.id}')" href="#" class="btn btn-primary">Add to cart</a>
       </div>
