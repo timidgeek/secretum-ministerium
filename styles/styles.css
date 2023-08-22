@@ -73,7 +73,7 @@
 /* #region BODY */
 
   body, a:hover {
-    cursor: url(https://springhole.net/pixelart/cursors/wand_mc_style-a_earth.gif), 
+    cursor: url(https://springhole.net/pixelart/cursors/wand_mc_style-a_earth.gif),
     progress !important;
   }
 
@@ -240,7 +240,8 @@ footer.container-fluid {
 
 /* #endregion */
 
-/* #region shop */
+/* #region SHOP */
+
 .shop-bg {
   background-image: url(images/backgrounds/shop_BG_starsky.gif);
   background-repeat: repeat;
@@ -253,9 +254,9 @@ footer.container-fluid {
 	/* display: -webkit-flex; */
 	display: flex;
   border-radius: 10px;
-	-webkit-justify-content: center; 
+	-webkit-justify-content: center;
   justify-content: center;
-  -webkit-flex-wrap: wrap; 
+  -webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin-top: 15px;
 	padding: 1.5%;
@@ -290,6 +291,37 @@ footer.container-fluid {
 .price-div {
   position: absolute;
   padding-bottom: 0px !important;
+}
+
+/* #endregion */
+
+/* #region CART */
+
+.cart-bg {
+  background-image: url(images/backgrounds/shop_BG_starsky.gif);
+  background-repeat: repeat;
+  box-shadow: inset 0 0 0 1000px rgba(9, 16, 69, 0.577);
+  height: 100vh;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+  background: var(--main-color-dark);
+  font-weight: normal;
+}
+
+td a {
+  color: var(--accent-green);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.border-top.sub-border {
+  border-top-color: var(--main-color-dark) !important;
 }
 
 /* #endregion */
