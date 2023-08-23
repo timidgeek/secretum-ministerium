@@ -162,14 +162,14 @@
     var i, rats, rlef, rdow;
     for (var i=0; i<sparkles; i++) {
       var rats=createDiv(3, 3);
-      rats.style.visibility="hidden";
+      rats.style.display="none";
       rats.style.zIndex="999";
       document.body.appendChild(tiny[i]=rats);
       starv[i]=0;
       tinyv[i]=0;
       var rats=createDiv(5, 5);
       rats.style.backgroundColor="transparent";
-      rats.style.visibility="hidden";
+      rats.style.display="none";
       rats.style.zIndex="999";
       var rlef=createDiv(1, 5);
       var rdow=createDiv(5, 1);
@@ -195,7 +195,7 @@
         star[c].style.top=(stary[c]=y+1)+"px";
         star[c].style.clip="rect(0px, 5px, 5px, 0px)";
         star[c].childNodes[0].style.backgroundColor=star[c].childNodes[1].style.backgroundColor=(colour=="random")?newColour():colour;
-        star[c].style.visibility="visible";
+        star[c].style.display="block";
         starv[c]=50;
         break;
       }
@@ -217,7 +217,7 @@
         star[i].style.left=starx[i]+"px";
       }
       else {
-        star[i].style.visibility="hidden";
+        star[i].style.display="none";
         starv[i]=0;
         return;
       }
@@ -229,8 +229,8 @@
       tiny[i].style.width="2px";
       tiny[i].style.height="2px";
       tiny[i].style.backgroundColor=star[i].childNodes[0].style.backgroundColor;
-      star[i].style.visibility="hidden";
-      tiny[i].style.visibility="visible"
+      star[i].style.display="none";
+      tiny[i].style.display="block"
     }
   }
 
@@ -247,12 +247,12 @@
         tiny[i].style.left=tinyx[i]+"px";
       }
       else {
-        tiny[i].style.visibility="hidden";
+        tiny[i].style.display="none";
         tinyv[i]=0;
         return;
       }
     }
-    else tiny[i].style.visibility="hidden";
+    else tiny[i].style.display="none";
   }
 
   document.onmousemove=mouse;
