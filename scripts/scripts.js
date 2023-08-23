@@ -59,7 +59,7 @@ function displayCart() {
 
     // Create the table structure
     $('#cartDisplay').append(`
-      <div class="container-sm my-5">
+      <div id="productContainer" class="container-sm py-5">
         <table id="productTable" class="w-100">
           <tr class="bg-danger text-white">
             <th class="p-2 text-start">Product</th>
@@ -108,8 +108,8 @@ function displayCart() {
 
     // Only append the total after all promises have resolved
     Promise.all(promises).then(() => {
-        $('#cartDisplay').append(`
-          <div class="d-flex justify-content-end mx-5">
+        $('#productContainer').append(`
+          <div class="d-flex justify-content-end pt-5">
             <button class="btn btn-primary rounded-pill text-uppercase px-4 py-3 mx-4 align-self-center">Checkout</button>
             <table id="totalPriceTable" class="w-100 text-white" style="max-width: 400px;">
               <tr class="border-top border-3 sub-border">
