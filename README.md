@@ -6,6 +6,8 @@ Welcome. We have been propositioned by an elusive client to create an e-commerce
 
 Dive into the mystical world of enchanted artifacts designed to keep you safe and sound. Our unique collection focuses on magical items that protect their users and fend off unexpected dangers. Get ready to discover a realm of rare amulets, powerful potions, and unbeatable invisibility cloaks.
 
+Access the website [here](https://timidgeek.github.io/secretum-ministerium/homepage.html).
+
 ## Tools Used :crystal_ball:
 
 - HTML/CSS
